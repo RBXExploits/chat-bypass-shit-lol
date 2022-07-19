@@ -327,7 +327,7 @@ saytheshit.TextSize = 25.000
 
 -- Scripts:
 
-local function PPFPQH_fake_script() -- tabsmain.LocalScript 
+local function YHSJB_fake_script() -- tabsmain.LocalScript 
 	local script = Instance.new('LocalScript', tabsmain)
 
 	Slurs.MouseButton1Click:Connect(function()
@@ -376,8 +376,8 @@ local function PPFPQH_fake_script() -- tabsmain.LocalScript
 		NormalTab.Visible = true
 	end)
 end
-coroutine.wrap(PPFPQH_fake_script)()
-local function NTBDNRD_fake_script() -- SlursTab.SlursTabMain 
+coroutine.wrap(YHSJB_fake_script)()
+local function LAMC_fake_script() -- SlursTab.SlursTabMain 
 	local script = Instance.new('LocalScript', SlursTab)
 
 	Nigger.MouseButton1Click:Connect(function()
@@ -388,8 +388,8 @@ local function NTBDNRD_fake_script() -- SlursTab.SlursTabMain
 		msgbuilder.Text = msgbuilder.Text.. " и ! ggα"	
 	end)
 end
-coroutine.wrap(NTBDNRD_fake_script)()
-local function PRSKMUA_fake_script() -- SexualTab.SexualTabMain 
+coroutine.wrap(LAMC_fake_script)()
+local function OSGYWJ_fake_script() -- SexualTab.SexualTabMain 
 	local script = Instance.new('LocalScript', SexualTab)
 
 	Sex.MouseButton1Click:Connect(function()
@@ -406,16 +406,16 @@ local function PRSKMUA_fake_script() -- SexualTab.SexualTabMain
 	end)
 	
 end
-coroutine.wrap(PRSKMUA_fake_script)()
-local function HLFMAL_fake_script() -- TerrorismTab.TerrorismTabMain 
+coroutine.wrap(OSGYWJ_fake_script)()
+local function OPZFT_fake_script() -- TerrorismTab.TerrorismTabMain 
 	local script = Instance.new('LocalScript', TerrorismTab)
 
 	ISIS.MouseButton1Click:Connect(function()
 		msgbuilder.Text = msgbuilder.Text.. " ḷ sίs"
 	end)
 end
-coroutine.wrap(HLFMAL_fake_script)()
-local function VYYNWQZ_fake_script() -- MiscTab.MiscTabMain 
+coroutine.wrap(OPZFT_fake_script)()
+local function ZRIQ_fake_script() -- MiscTab.MiscTabMain 
 	local script = Instance.new('LocalScript', MiscTab)
 
 	AllahAkubar.MouseButton1Click:Connect(function()
@@ -425,16 +425,16 @@ local function VYYNWQZ_fake_script() -- MiscTab.MiscTabMain
 		msgbuilder.Text = msgbuilder.Text.. " AןIah"
 	end)
 end
-coroutine.wrap(VYYNWQZ_fake_script)()
-local function OJMJ_fake_script() -- NormalTab.NormalTabMain 
+coroutine.wrap(ZRIQ_fake_script)()
+local function TSYFP_fake_script() -- NormalTab.NormalTabMain 
 	local script = Instance.new('LocalScript', NormalTab)
 
 	Fuck.MouseButton1Click:Connect(function()
 		msgbuilder.Text = msgbuilder.Text.. " ｆ-ひ ﺡ k"
 	end)
 end
-coroutine.wrap(OJMJ_fake_script)()
-local function MMVS_fake_script() -- saytheshit.LocalScript 
+coroutine.wrap(TSYFP_fake_script)()
+local function YHHG_fake_script() -- saytheshit.LocalScript 
 	local script = Instance.new('LocalScript', saytheshit)
 
 	saytheshit.MouseButton1Click:Connect(function()
@@ -447,4 +447,48 @@ local function MMVS_fake_script() -- saytheshit.LocalScript
 	end)
 	
 end
-coroutine.wrap(MMVS_fake_script)()
+coroutine.wrap(YHHG_fake_script)()
+local function FWJN_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = Main
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(FWJN_fake_script)()
