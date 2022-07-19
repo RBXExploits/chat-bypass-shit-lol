@@ -44,6 +44,7 @@ local MiscTab = Instance.new("Frame")
 local UIGridLayout_5 = Instance.new("UIGridLayout")
 local Allah = Instance.new("TextButton")
 local AllahAkubar = Instance.new("TextButton")
+local Gore = Instance.new("TextButton")
 local NormalTab = Instance.new("Frame")
 local Fuck = Instance.new("TextButton")
 local UIGridLayout_6 = Instance.new("UIGridLayout")
@@ -403,6 +404,16 @@ AllahAkubar.Text = "Allah Akubar"
 AllahAkubar.TextColor3 = Color3.fromRGB(255, 255, 255)
 AllahAkubar.TextSize = 25.000
 
+Gore.Name = "Gore"
+Gore.Parent = MiscTab
+Gore.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Gore.BorderSizePixel = 0
+Gore.Size = UDim2.new(0, 200, 0, 50)
+Gore.Font = Enum.Font.SourceSans
+Gore.Text = "Gore"
+Gore.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gore.TextSize = 25.000
+
 NormalTab.Name = "NormalTab"
 NormalTab.Parent = theactualtabs
 NormalTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -481,7 +492,7 @@ saytheshit.TextSize = 25.000
 
 -- Scripts:
 
-local function AUNEWY_fake_script() -- tabsmain.LocalScript 
+local function IHMUTZ_fake_script() -- tabsmain.LocalScript 
 	local script = Instance.new('LocalScript', tabsmain)
 
 	Slurs.MouseButton1Click:Connect(function()
@@ -530,8 +541,8 @@ local function AUNEWY_fake_script() -- tabsmain.LocalScript
 		NormalTab.Visible = true
 	end)
 end
-coroutine.wrap(AUNEWY_fake_script)()
-local function WGVKLUS_fake_script() -- SlursTab.SlursTabMain 
+coroutine.wrap(IHMUTZ_fake_script)()
+local function LKGRHIL_fake_script() -- SlursTab.SlursTabMain 
 	local script = Instance.new('LocalScript', SlursTab)
 
 	Nigger.MouseButton1Click:Connect(function()
@@ -554,8 +565,8 @@ local function WGVKLUS_fake_script() -- SlursTab.SlursTabMain
 		msgbuilder.Text = msgbuilder.Text.. " rᴇᵻ ᴀᴦd"	
 	end)
 end
-coroutine.wrap(WGVKLUS_fake_script)()
-local function RFMW_fake_script() -- SexualTab.SexualTabMain 
+coroutine.wrap(LKGRHIL_fake_script)()
+local function PQXDRL_fake_script() -- SexualTab.SexualTabMain 
 	local script = Instance.new('LocalScript', SexualTab)
 
 	Sex.MouseButton1Click:Connect(function()
@@ -596,16 +607,16 @@ local function RFMW_fake_script() -- SexualTab.SexualTabMain
 		msgbuilder.Text = msgbuilder.Text.. " Ɗ! c к"
 	end)
 end
-coroutine.wrap(RFMW_fake_script)()
-local function NKLEDW_fake_script() -- TerrorismTab.TerrorismTabMain 
+coroutine.wrap(PQXDRL_fake_script)()
+local function WXPFBM_fake_script() -- TerrorismTab.TerrorismTabMain 
 	local script = Instance.new('LocalScript', TerrorismTab)
 
 	ISIS.MouseButton1Click:Connect(function()
 		msgbuilder.Text = msgbuilder.Text.. " ḷ sίs"
 	end)
 end
-coroutine.wrap(NKLEDW_fake_script)()
-local function FRENMZJ_fake_script() -- MiscTab.MiscTabMain 
+coroutine.wrap(WXPFBM_fake_script)()
+local function MPRAVYN_fake_script() -- MiscTab.MiscTabMain 
 	local script = Instance.new('LocalScript', MiscTab)
 
 	AllahAkubar.MouseButton1Click:Connect(function()
@@ -614,9 +625,12 @@ local function FRENMZJ_fake_script() -- MiscTab.MiscTabMain
 	Allah.MouseButton1Click:Connect(function()
 		msgbuilder.Text = msgbuilder.Text.. " AןIah"
 	end)
+	Gore.MouseButton1Click:Connect(function()
+		msgbuilder.Text = msgbuilder.Text.. " g ᴏ rḕ"
+	end)
 end
-coroutine.wrap(FRENMZJ_fake_script)()
-local function ZKGHRD_fake_script() -- NormalTab.NormalTabMain 
+coroutine.wrap(MPRAVYN_fake_script)()
+local function YQCK_fake_script() -- NormalTab.NormalTabMain 
 	local script = Instance.new('LocalScript', NormalTab)
 
 	Fuck.MouseButton1Click:Connect(function()
@@ -632,8 +646,8 @@ local function ZKGHRD_fake_script() -- NormalTab.NormalTabMain
 		msgbuilder.Text = msgbuilder.Text.. " ﻛ ҥї t"
 	end)
 end
-coroutine.wrap(ZKGHRD_fake_script)()
-local function KWNNAI_fake_script() -- saytheshit.LocalScript 
+coroutine.wrap(YQCK_fake_script)()
+local function CPFXZB_fake_script() -- saytheshit.LocalScript 
 	local script = Instance.new('LocalScript', saytheshit)
 
 	saytheshit.MouseButton1Click:Connect(function()
@@ -646,8 +660,8 @@ local function KWNNAI_fake_script() -- saytheshit.LocalScript
 	end)
 	
 end
-coroutine.wrap(KWNNAI_fake_script)()
-local function EURMLR_fake_script() -- Main.LocalScript 
+coroutine.wrap(CPFXZB_fake_script)()
+local function HYQP_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -690,4 +704,4 @@ local function EURMLR_fake_script() -- Main.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EURMLR_fake_script)()
+coroutine.wrap(HYQP_fake_script)()
