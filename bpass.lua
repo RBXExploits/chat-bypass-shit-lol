@@ -35,6 +35,7 @@ local Boobies = Instance.new("TextButton")
 local Tits = Instance.new("TextButton")
 local Cum = Instance.new("TextButton")
 local Penis = Instance.new("TextButton")
+local Cock = Instance.new("TextButton")
 local TerrorismTab = Instance.new("Frame")
 local UIGridLayout_4 = Instance.new("UIGridLayout")
 local ISIS = Instance.new("TextButton")
@@ -53,7 +54,7 @@ local saytheshit = Instance.new("TextButton")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
@@ -327,6 +328,16 @@ Penis.Text = "Penis"
 Penis.TextColor3 = Color3.fromRGB(255, 255, 255)
 Penis.TextSize = 25.000
 
+Cock.Name = "Cock"
+Cock.Parent = SexualTab
+Cock.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Cock.BorderSizePixel = 0
+Cock.Size = UDim2.new(0, 200, 0, 50)
+Cock.Font = Enum.Font.SourceSans
+Cock.Text = "Cock"
+Cock.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cock.TextSize = 25.000
+
 TerrorismTab.Name = "TerrorismTab"
 TerrorismTab.Parent = theactualtabs
 TerrorismTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -459,7 +470,7 @@ saytheshit.TextSize = 25.000
 
 -- Scripts:
 
-local function ZEIM_fake_script() -- tabsmain.LocalScript 
+local function BWEONQ_fake_script() -- tabsmain.LocalScript 
 	local script = Instance.new('LocalScript', tabsmain)
 
 	Slurs.MouseButton1Click:Connect(function()
@@ -508,8 +519,8 @@ local function ZEIM_fake_script() -- tabsmain.LocalScript
 		NormalTab.Visible = true
 	end)
 end
-coroutine.wrap(ZEIM_fake_script)()
-local function QBJA_fake_script() -- SlursTab.SlursTabMain 
+coroutine.wrap(BWEONQ_fake_script)()
+local function VTSQTC_fake_script() -- SlursTab.SlursTabMain 
 	local script = Instance.new('LocalScript', SlursTab)
 
 	Nigger.MouseButton1Click:Connect(function()
@@ -532,8 +543,8 @@ local function QBJA_fake_script() -- SlursTab.SlursTabMain
 		msgbuilder.Text = msgbuilder.Text.. " rᴇᵻ ᴀᴦd"	
 	end)
 end
-coroutine.wrap(QBJA_fake_script)()
-local function ZTFQZQ_fake_script() -- SexualTab.SexualTabMain 
+coroutine.wrap(VTSQTC_fake_script)()
+local function VWCBXY_fake_script() -- SexualTab.SexualTabMain 
 	local script = Instance.new('LocalScript', SexualTab)
 
 	Sex.MouseButton1Click:Connect(function()
@@ -567,18 +578,20 @@ local function ZTFQZQ_fake_script() -- SexualTab.SexualTabMain
 	Penis.MouseButton1Click:Connect(function()
 		msgbuilder.Text = msgbuilder.Text.. " рѐп ї s"
 	end)
-	
+	Cock.MouseButton1Click:Connect(function()
+		msgbuilder.Text = msgbuilder.Text.. " с о сҞ"
+	end)
 end
-coroutine.wrap(ZTFQZQ_fake_script)()
-local function ZZQXRD_fake_script() -- TerrorismTab.TerrorismTabMain 
+coroutine.wrap(VWCBXY_fake_script)()
+local function AUQIJ_fake_script() -- TerrorismTab.TerrorismTabMain 
 	local script = Instance.new('LocalScript', TerrorismTab)
 
 	ISIS.MouseButton1Click:Connect(function()
 		msgbuilder.Text = msgbuilder.Text.. " ḷ sίs"
 	end)
 end
-coroutine.wrap(ZZQXRD_fake_script)()
-local function SEWYL_fake_script() -- MiscTab.MiscTabMain 
+coroutine.wrap(AUQIJ_fake_script)()
+local function MNKOKKJ_fake_script() -- MiscTab.MiscTabMain 
 	local script = Instance.new('LocalScript', MiscTab)
 
 	AllahAkubar.MouseButton1Click:Connect(function()
@@ -588,8 +601,8 @@ local function SEWYL_fake_script() -- MiscTab.MiscTabMain
 		msgbuilder.Text = msgbuilder.Text.. " AןIah"
 	end)
 end
-coroutine.wrap(SEWYL_fake_script)()
-local function YJXDOL_fake_script() -- NormalTab.NormalTabMain 
+coroutine.wrap(MNKOKKJ_fake_script)()
+local function WWABCB_fake_script() -- NormalTab.NormalTabMain 
 	local script = Instance.new('LocalScript', NormalTab)
 
 	Fuck.MouseButton1Click:Connect(function()
@@ -605,8 +618,8 @@ local function YJXDOL_fake_script() -- NormalTab.NormalTabMain
 		msgbuilder.Text = msgbuilder.Text.. " ﻛ ҥї t"
 	end)
 end
-coroutine.wrap(YJXDOL_fake_script)()
-local function JUNIIY_fake_script() -- saytheshit.LocalScript 
+coroutine.wrap(WWABCB_fake_script)()
+local function GHUL_fake_script() -- saytheshit.LocalScript 
 	local script = Instance.new('LocalScript', saytheshit)
 
 	saytheshit.MouseButton1Click:Connect(function()
@@ -619,8 +632,8 @@ local function JUNIIY_fake_script() -- saytheshit.LocalScript
 	end)
 	
 end
-coroutine.wrap(JUNIIY_fake_script)()
-local function BVLUAQ_fake_script() -- Main.LocalScript 
+coroutine.wrap(GHUL_fake_script)()
+local function GNBIOE_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -663,4 +676,5 @@ local function BVLUAQ_fake_script() -- Main.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BVLUAQ_fake_script)()
+coroutine.wrap(GNBIOE_fake_script)()
+
