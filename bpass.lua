@@ -26,6 +26,10 @@ local PornHub = Instance.new("TextButton")
 local Porn = Instance.new("TextButton")
 local Sex = Instance.new("TextButton")
 local Rape = Instance.new("TextButton")
+local Titties = Instance.new("TextButton")
+local Boobs = Instance.new("TextButton")
+local Boobies = Instance.new("TextButton")
+local Tits = Instance.new("TextButton")
 local TerrorismTab = Instance.new("Frame")
 local UIGridLayout_4 = Instance.new("UIGridLayout")
 local ISIS = Instance.new("TextButton")
@@ -227,6 +231,46 @@ Rape.Text = "Rape"
 Rape.TextColor3 = Color3.fromRGB(255, 255, 255)
 Rape.TextSize = 25.000
 
+Titties.Name = "Titties"
+Titties.Parent = SexualTab
+Titties.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Titties.BorderSizePixel = 0
+Titties.Size = UDim2.new(0, 200, 0, 50)
+Titties.Font = Enum.Font.SourceSans
+Titties.Text = "Titties"
+Titties.TextColor3 = Color3.fromRGB(255, 255, 255)
+Titties.TextSize = 25.000
+
+Boobs.Name = "Boobs"
+Boobs.Parent = SexualTab
+Boobs.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Boobs.BorderSizePixel = 0
+Boobs.Size = UDim2.new(0, 200, 0, 50)
+Boobs.Font = Enum.Font.SourceSans
+Boobs.Text = "Boobs"
+Boobs.TextColor3 = Color3.fromRGB(255, 255, 255)
+Boobs.TextSize = 25.000
+
+Boobies.Name = "Boobies"
+Boobies.Parent = SexualTab
+Boobies.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Boobies.BorderSizePixel = 0
+Boobies.Size = UDim2.new(0, 200, 0, 50)
+Boobies.Font = Enum.Font.SourceSans
+Boobies.Text = "Boobies"
+Boobies.TextColor3 = Color3.fromRGB(255, 255, 255)
+Boobies.TextSize = 25.000
+
+Tits.Name = "Tits"
+Tits.Parent = SexualTab
+Tits.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Tits.BorderSizePixel = 0
+Tits.Size = UDim2.new(0, 200, 0, 50)
+Tits.Font = Enum.Font.SourceSans
+Tits.Text = "Tits"
+Tits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tits.TextSize = 25.000
+
 TerrorismTab.Name = "TerrorismTab"
 TerrorismTab.Parent = theactualtabs
 TerrorismTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -349,7 +393,7 @@ saytheshit.TextSize = 25.000
 
 -- Scripts:
 
-local function ELWP_fake_script() -- tabsmain.LocalScript 
+local function GFNAYZJ_fake_script() -- tabsmain.LocalScript 
 	local script = Instance.new('LocalScript', tabsmain)
 
 	Slurs.MouseButton1Click:Connect(function()
@@ -398,8 +442,8 @@ local function ELWP_fake_script() -- tabsmain.LocalScript
 		NormalTab.Visible = true
 	end)
 end
-coroutine.wrap(ELWP_fake_script)()
-local function MIOYFKJ_fake_script() -- SlursTab.SlursTabMain 
+coroutine.wrap(GFNAYZJ_fake_script)()
+local function TOSFMH_fake_script() -- SlursTab.SlursTabMain 
 	local script = Instance.new('LocalScript', SlursTab)
 
 	Nigger.MouseButton1Click:Connect(function()
@@ -410,8 +454,8 @@ local function MIOYFKJ_fake_script() -- SlursTab.SlursTabMain
 		msgbuilder.Text = msgbuilder.Text.. " и ! ggα"	
 	end)
 end
-coroutine.wrap(MIOYFKJ_fake_script)()
-local function GWSFD_fake_script() -- SexualTab.SexualTabMain 
+coroutine.wrap(TOSFMH_fake_script)()
+local function VLWSOLA_fake_script() -- SexualTab.SexualTabMain 
 	local script = Instance.new('LocalScript', SexualTab)
 
 	Sex.MouseButton1Click:Connect(function()
@@ -427,17 +471,30 @@ local function GWSFD_fake_script() -- SexualTab.SexualTabMain
 		msgbuilder.Text = msgbuilder.Text.. " г ǝ ре"
 	end)
 	
+	Boobs.MouseButton1Click:Connect(function()
+		msgbuilder.Text = msgbuilder.Text.. " b ΩΩ b ᴤ"
+	end)
+	Boobies.MouseButton1Click:Connect(function()
+		msgbuilder.Text = msgbuilder.Text.. " b ΩΩ b ῒ e ᴤ"
+	end)
+	Titties.MouseButton1Click:Connect(function()
+		msgbuilder.Text = msgbuilder.Text.. " ₸ !tt ﻏ ies"
+	end)
+	Tits.MouseButton1Click:Connect(function()
+		msgbuilder.Text = msgbuilder.Text.. " ₸ ! t ﻛ"
+	end)
+	
 end
-coroutine.wrap(GWSFD_fake_script)()
-local function NRKUHZZ_fake_script() -- TerrorismTab.TerrorismTabMain 
+coroutine.wrap(VLWSOLA_fake_script)()
+local function DYLKH_fake_script() -- TerrorismTab.TerrorismTabMain 
 	local script = Instance.new('LocalScript', TerrorismTab)
 
 	ISIS.MouseButton1Click:Connect(function()
 		msgbuilder.Text = msgbuilder.Text.. " ḷ sίs"
 	end)
 end
-coroutine.wrap(NRKUHZZ_fake_script)()
-local function RPAIK_fake_script() -- MiscTab.MiscTabMain 
+coroutine.wrap(DYLKH_fake_script)()
+local function QHAJRVM_fake_script() -- MiscTab.MiscTabMain 
 	local script = Instance.new('LocalScript', MiscTab)
 
 	AllahAkubar.MouseButton1Click:Connect(function()
@@ -447,8 +504,8 @@ local function RPAIK_fake_script() -- MiscTab.MiscTabMain
 		msgbuilder.Text = msgbuilder.Text.. " AןIah"
 	end)
 end
-coroutine.wrap(RPAIK_fake_script)()
-local function UPYI_fake_script() -- NormalTab.NormalTabMain 
+coroutine.wrap(QHAJRVM_fake_script)()
+local function CUMZLLP_fake_script() -- NormalTab.NormalTabMain 
 	local script = Instance.new('LocalScript', NormalTab)
 
 	Fuck.MouseButton1Click:Connect(function()
@@ -461,8 +518,8 @@ local function UPYI_fake_script() -- NormalTab.NormalTabMain
 		msgbuilder.Text = msgbuilder.Text.. " ӹТ ﺝ h"
 	end)
 end
-coroutine.wrap(UPYI_fake_script)()
-local function SSJPPV_fake_script() -- saytheshit.LocalScript 
+coroutine.wrap(CUMZLLP_fake_script)()
+local function ONHWZ_fake_script() -- saytheshit.LocalScript 
 	local script = Instance.new('LocalScript', saytheshit)
 
 	saytheshit.MouseButton1Click:Connect(function()
@@ -475,8 +532,8 @@ local function SSJPPV_fake_script() -- saytheshit.LocalScript
 	end)
 	
 end
-coroutine.wrap(SSJPPV_fake_script)()
-local function OTVOUM_fake_script() -- Main.LocalScript 
+coroutine.wrap(ONHWZ_fake_script)()
+local function JUDR_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -519,4 +576,5 @@ local function OTVOUM_fake_script() -- Main.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OTVOUM_fake_script)()
+coroutine.wrap(JUDR_fake_script)()
+
