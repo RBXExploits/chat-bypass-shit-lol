@@ -48,7 +48,7 @@ Main.Name = "Main"
 Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
 Main.BorderSizePixel = 0
-Main.Position = UDim2.new(0.385120362, 0, 0.32435739, 0)
+Main.Position = UDim2.new(0.0342815518, 0, 0.0465116203, 0)
 Main.Size = UDim2.new(0, 488, 0, 310)
 
 topbar.Name = "topbar"
@@ -327,7 +327,7 @@ saytheshit.TextSize = 25.000
 
 -- Scripts:
 
-local function TGSJD_fake_script() -- tabsmain.LocalScript 
+local function PPFPQH_fake_script() -- tabsmain.LocalScript 
 	local script = Instance.new('LocalScript', tabsmain)
 
 	Slurs.MouseButton1Click:Connect(function()
@@ -376,8 +376,8 @@ local function TGSJD_fake_script() -- tabsmain.LocalScript
 		NormalTab.Visible = true
 	end)
 end
-coroutine.wrap(TGSJD_fake_script)()
-local function QCJKLRK_fake_script() -- SlursTab.SlursTabMain 
+coroutine.wrap(PPFPQH_fake_script)()
+local function NTBDNRD_fake_script() -- SlursTab.SlursTabMain 
 	local script = Instance.new('LocalScript', SlursTab)
 
 	Nigger.MouseButton1Click:Connect(function()
@@ -388,8 +388,8 @@ local function QCJKLRK_fake_script() -- SlursTab.SlursTabMain
 		msgbuilder.Text = msgbuilder.Text.. " и ! ggα"	
 	end)
 end
-coroutine.wrap(QCJKLRK_fake_script)()
-local function SNDUSY_fake_script() -- SexualTab.SexualTabMain 
+coroutine.wrap(NTBDNRD_fake_script)()
+local function PRSKMUA_fake_script() -- SexualTab.SexualTabMain 
 	local script = Instance.new('LocalScript', SexualTab)
 
 	Sex.MouseButton1Click:Connect(function()
@@ -406,16 +406,16 @@ local function SNDUSY_fake_script() -- SexualTab.SexualTabMain
 	end)
 	
 end
-coroutine.wrap(SNDUSY_fake_script)()
-local function OYMPW_fake_script() -- TerrorismTab.TerrorismTabMain 
+coroutine.wrap(PRSKMUA_fake_script)()
+local function HLFMAL_fake_script() -- TerrorismTab.TerrorismTabMain 
 	local script = Instance.new('LocalScript', TerrorismTab)
 
 	ISIS.MouseButton1Click:Connect(function()
 		msgbuilder.Text = msgbuilder.Text.. " ḷ sίs"
 	end)
 end
-coroutine.wrap(OYMPW_fake_script)()
-local function LHCXAMI_fake_script() -- MiscTab.MiscTabMain 
+coroutine.wrap(HLFMAL_fake_script)()
+local function VYYNWQZ_fake_script() -- MiscTab.MiscTabMain 
 	local script = Instance.new('LocalScript', MiscTab)
 
 	AllahAkubar.MouseButton1Click:Connect(function()
@@ -425,16 +425,16 @@ local function LHCXAMI_fake_script() -- MiscTab.MiscTabMain
 		msgbuilder.Text = msgbuilder.Text.. " AןIah"
 	end)
 end
-coroutine.wrap(LHCXAMI_fake_script)()
-local function JQNEYVN_fake_script() -- NormalTab.NormalTabMain 
+coroutine.wrap(VYYNWQZ_fake_script)()
+local function OJMJ_fake_script() -- NormalTab.NormalTabMain 
 	local script = Instance.new('LocalScript', NormalTab)
 
 	Fuck.MouseButton1Click:Connect(function()
 		msgbuilder.Text = msgbuilder.Text.. " ｆ-ひ ﺡ k"
 	end)
 end
-coroutine.wrap(JQNEYVN_fake_script)()
-local function RHNDI_fake_script() -- saytheshit.LocalScript 
+coroutine.wrap(OJMJ_fake_script)()
+local function MMVS_fake_script() -- saytheshit.LocalScript 
 	local script = Instance.new('LocalScript', saytheshit)
 
 	saytheshit.MouseButton1Click:Connect(function()
@@ -447,4 +447,4 @@ local function RHNDI_fake_script() -- saytheshit.LocalScript
 	end)
 	
 end
-coroutine.wrap(RHNDI_fake_script)()
+coroutine.wrap(MMVS_fake_script)()
