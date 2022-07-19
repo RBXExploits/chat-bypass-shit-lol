@@ -573,10 +573,10 @@ local function PQXDRL_fake_script() -- SexualTab.SexualTabMain
 		msgbuilder.Text = msgbuilder.Text.. " s҉ E אַ"
 	end)
 	PornHub.MouseButton1Click:Connect(function()
-		msgbuilder.Text = msgbuilder.Text.. " P0reɴHub"
+		msgbuilder.Text = msgbuilder.Text.. " p o ґ תּ hub"
 	end)
 	Porn.MouseButton1Click:Connect(function()
-		msgbuilder.Text = msgbuilder.Text.. " P0reɴ"
+		msgbuilder.Text = msgbuilder.Text.. " p o ґ תּ"
 	end)
 	Rape.MouseButton1Click:Connect(function()
 		msgbuilder.Text = msgbuilder.Text.. " г ǝ ре"
