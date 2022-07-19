@@ -30,6 +30,7 @@ local Titties = Instance.new("TextButton")
 local Boobs = Instance.new("TextButton")
 local Boobies = Instance.new("TextButton")
 local Tits = Instance.new("TextButton")
+local Cum = Instance.new("TextButton")
 local TerrorismTab = Instance.new("Frame")
 local UIGridLayout_4 = Instance.new("UIGridLayout")
 local ISIS = Instance.new("TextButton")
@@ -42,6 +43,7 @@ local Fuck = Instance.new("TextButton")
 local UIGridLayout_6 = Instance.new("UIGridLayout")
 local Ass = Instance.new("TextButton")
 local Bitch = Instance.new("TextButton")
+local Shit = Instance.new("TextButton")
 local msgbuilder = Instance.new("TextBox")
 local saytheshit = Instance.new("TextButton")
 
@@ -271,6 +273,16 @@ Tits.Text = "Tits"
 Tits.TextColor3 = Color3.fromRGB(255, 255, 255)
 Tits.TextSize = 25.000
 
+Cum.Name = "Cum"
+Cum.Parent = SexualTab
+Cum.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Cum.BorderSizePixel = 0
+Cum.Size = UDim2.new(0, 200, 0, 50)
+Cum.Font = Enum.Font.SourceSans
+Cum.Text = "Cum"
+Cum.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cum.TextSize = 25.000
+
 TerrorismTab.Name = "TerrorismTab"
 TerrorismTab.Parent = theactualtabs
 TerrorismTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -367,6 +379,16 @@ Bitch.Text = "Bitch"
 Bitch.TextColor3 = Color3.fromRGB(255, 255, 255)
 Bitch.TextSize = 25.000
 
+Shit.Name = "Shit"
+Shit.Parent = NormalTab
+Shit.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Shit.BorderSizePixel = 0
+Shit.Size = UDim2.new(0, 200, 0, 50)
+Shit.Font = Enum.Font.SourceSans
+Shit.Text = "Shit"
+Shit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Shit.TextSize = 25.000
+
 msgbuilder.Name = "msgbuilder"
 msgbuilder.Parent = Main
 msgbuilder.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
@@ -393,7 +415,7 @@ saytheshit.TextSize = 25.000
 
 -- Scripts:
 
-local function GFNAYZJ_fake_script() -- tabsmain.LocalScript 
+local function EPTB_fake_script() -- tabsmain.LocalScript 
 	local script = Instance.new('LocalScript', tabsmain)
 
 	Slurs.MouseButton1Click:Connect(function()
@@ -442,8 +464,8 @@ local function GFNAYZJ_fake_script() -- tabsmain.LocalScript
 		NormalTab.Visible = true
 	end)
 end
-coroutine.wrap(GFNAYZJ_fake_script)()
-local function TOSFMH_fake_script() -- SlursTab.SlursTabMain 
+coroutine.wrap(EPTB_fake_script)()
+local function MOZBAW_fake_script() -- SlursTab.SlursTabMain 
 	local script = Instance.new('LocalScript', SlursTab)
 
 	Nigger.MouseButton1Click:Connect(function()
@@ -454,8 +476,8 @@ local function TOSFMH_fake_script() -- SlursTab.SlursTabMain
 		msgbuilder.Text = msgbuilder.Text.. " и ! ggα"	
 	end)
 end
-coroutine.wrap(TOSFMH_fake_script)()
-local function VLWSOLA_fake_script() -- SexualTab.SexualTabMain 
+coroutine.wrap(MOZBAW_fake_script)()
+local function JMTJPDQ_fake_script() -- SexualTab.SexualTabMain 
 	local script = Instance.new('LocalScript', SexualTab)
 
 	Sex.MouseButton1Click:Connect(function()
@@ -483,18 +505,21 @@ local function VLWSOLA_fake_script() -- SexualTab.SexualTabMain
 	Tits.MouseButton1Click:Connect(function()
 		msgbuilder.Text = msgbuilder.Text.. " ₸ ! t ﻛ"
 	end)
+	Cum.MouseButton1Click:Connect(function()
+		msgbuilder.Text = msgbuilder.Text.. " сשּm"
+	end)
 	
 end
-coroutine.wrap(VLWSOLA_fake_script)()
-local function DYLKH_fake_script() -- TerrorismTab.TerrorismTabMain 
+coroutine.wrap(JMTJPDQ_fake_script)()
+local function MZGR_fake_script() -- TerrorismTab.TerrorismTabMain 
 	local script = Instance.new('LocalScript', TerrorismTab)
 
 	ISIS.MouseButton1Click:Connect(function()
 		msgbuilder.Text = msgbuilder.Text.. " ḷ sίs"
 	end)
 end
-coroutine.wrap(DYLKH_fake_script)()
-local function QHAJRVM_fake_script() -- MiscTab.MiscTabMain 
+coroutine.wrap(MZGR_fake_script)()
+local function FEUDUTU_fake_script() -- MiscTab.MiscTabMain 
 	local script = Instance.new('LocalScript', MiscTab)
 
 	AllahAkubar.MouseButton1Click:Connect(function()
@@ -504,8 +529,8 @@ local function QHAJRVM_fake_script() -- MiscTab.MiscTabMain
 		msgbuilder.Text = msgbuilder.Text.. " AןIah"
 	end)
 end
-coroutine.wrap(QHAJRVM_fake_script)()
-local function CUMZLLP_fake_script() -- NormalTab.NormalTabMain 
+coroutine.wrap(FEUDUTU_fake_script)()
+local function WDLGTF_fake_script() -- NormalTab.NormalTabMain 
 	local script = Instance.new('LocalScript', NormalTab)
 
 	Fuck.MouseButton1Click:Connect(function()
@@ -517,9 +542,12 @@ local function CUMZLLP_fake_script() -- NormalTab.NormalTabMain
 	Bitch.MouseButton1Click:Connect(function()
 		msgbuilder.Text = msgbuilder.Text.. " ӹТ ﺝ h"
 	end)
+	Shit.MouseButton1Click:Connect(function()
+		msgbuilder.Text = msgbuilder.Text.. " ﻛ ҥї t"
+	end)
 end
-coroutine.wrap(CUMZLLP_fake_script)()
-local function ONHWZ_fake_script() -- saytheshit.LocalScript 
+coroutine.wrap(WDLGTF_fake_script)()
+local function ETMYC_fake_script() -- saytheshit.LocalScript 
 	local script = Instance.new('LocalScript', saytheshit)
 
 	saytheshit.MouseButton1Click:Connect(function()
@@ -532,8 +560,8 @@ local function ONHWZ_fake_script() -- saytheshit.LocalScript
 	end)
 	
 end
-coroutine.wrap(ONHWZ_fake_script)()
-local function JUDR_fake_script() -- Main.LocalScript 
+coroutine.wrap(ETMYC_fake_script)()
+local function HHVAUG_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -576,5 +604,4 @@ local function JUDR_fake_script() -- Main.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JUDR_fake_script)()
-
+coroutine.wrap(HHVAUG_fake_script)()
